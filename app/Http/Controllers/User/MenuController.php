@@ -48,7 +48,7 @@ class MenuController extends Controller
       } else {
           // それ以外はすべてのニュースを取得する
 
-          $posts = Menu::all();
+          $posts = Menu::all()->sortBy('name');
       }
       return view('user.menu.index', ['posts' => $posts, 'cond_name' => $cond_name]);
   }

@@ -63,7 +63,7 @@
   </div>  
 @endsection
 
-@section('js')
+/*@section('js')
 <script type = "text/javascript">
 function changeSelect2()
 {
@@ -110,4 +110,4 @@ function changeSelect2()
   }
 }
 </script>
-@endsection
+@endsection*/

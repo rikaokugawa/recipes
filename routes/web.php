@@ -16,7 +16,9 @@
 Route::group(['prefix' => 'user'], function() {
     Route::get('recipe/create', 'User\RecipeController@add');
     Route::post('recipe/create', 'User\RecipeController@create');
-    Route::get('recipe', 'RecipeController@index');
+    Route::get('recipe', 'User\RecipeController@index');
+    Route::get('recipe/edit', 'User\RecipeController@edit');
+    Route::get('recipe/delete', 'User\RecipeController@delete');
     Route::get('menu/create', 'User\MenuController@add');
     Route::post('menu/create', 'User\MenuController@create');
     Route::get('menu/edit', 'User\MenuController@edit'); // 追記

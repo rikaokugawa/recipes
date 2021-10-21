@@ -24,6 +24,8 @@ class CreateRecipesTable extends Migration
             $table->bigInteger('howto_id')->nullable();
             $table->bigInteger('feeling_id')->nullable();
             $table->bigInteger('taste_id')->nullable();
+            $table->string('image_path1')->nullable();
+            $table->string('image_path2')->nullable(); 
             $table->timestamps();
         });
     }

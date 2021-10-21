@@ -14,6 +14,8 @@ class MaterialsTableSeeder extends Seeder
         \DB::table('materials')->insert([
         /*[
             'name' => '枝豆',
+            'name2' => 'えだまめ',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -21,6 +23,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'みそ',
+            'name2' => '味噌',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -28,6 +32,8 @@ class MaterialsTableSeeder extends Seeder
          ], 
         [
             'name' => '調製豆乳',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -35,6 +41,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '無調製豆乳',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -42,6 +50,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ごま',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -49,6 +59,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '小豆',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -56,6 +68,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '煮小豆',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -63,6 +77,8 @@ class MaterialsTableSeeder extends Seeder
          ],
             [
             'name' => '豆腐',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -70,6 +86,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '黒豆',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '1',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -77,13 +95,17 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '米',
+            'name2' => 'ごはん',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
-         ],
+         ],*/
         [
             'name' => '強力粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -91,6 +113,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '薄力粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -98,6 +122,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'てんぷら粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -105,6 +131,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '米(無洗米)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -112,6 +140,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '雑穀',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -119,6 +149,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コーン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -126,6 +158,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'パン粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -133,6 +167,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'さつま芋',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -140,6 +176,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '米粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -147,6 +185,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '春巻きの皮',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -154,6 +194,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'スパゲッティ',
+            'name2' => 'パスタ',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -161,6 +203,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'じゃがいも',
+            'name2' => 'ポテト',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -168,6 +212,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'フランスパン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -175,6 +221,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ラザニア',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -182,6 +230,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コーン（クリーム）',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -189,6 +239,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コーン(粒)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -196,6 +248,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '餃子の皮',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -203,6 +257,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '中華麺(生・太麺)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -210,6 +266,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '角もち',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -217,6 +275,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '冷凍パイシート',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -224,6 +284,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'わらびもち粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '2',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -231,6 +293,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '白ねぎ',
+            'name2' => 'ネギ',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -238,6 +302,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '水菜',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -245,6 +311,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'きゅうり',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -252,6 +320,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '玉ねぎ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -259,6 +329,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '紫玉ねぎ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -266,6 +338,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'セロリ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -273,6 +347,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '赤パプリカ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -280,6 +356,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'グリーンリーフ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -287,6 +365,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '小松菜',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -294,6 +374,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ほうれん草',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -301,6 +383,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'トマト',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -308,6 +392,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ゴーヤ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -315,6 +401,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ズッキーニ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -322,6 +410,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '大根',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -329,6 +419,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '青じそ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -336,6 +428,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '紅芯大根',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -343,6 +437,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'わけぎ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -350,6 +446,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ルッコラ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -357,6 +455,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'プチトマト',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -364,6 +464,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '人参',
+            'name2' => 'にんじん',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -371,6 +473,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'キムチ(白菜)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -378,6 +482,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'トレビス',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -385,6 +491,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '青ねぎ',
+            'name2' => 'ネギ',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -392,6 +500,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'キャベツ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -399,6 +509,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ごぼう',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -406,6 +518,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '春菊',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -413,6 +527,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'たくわん',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -420,6 +536,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'かぶ',
+            'name2' => 'カブ',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -427,6 +545,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '紫キャベツ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -434,6 +554,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'かぼちゃ',
+            'name2' => 'カボチャ',
+            'name3' => '南瓜',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -441,6 +563,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'れんこん',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -448,6 +572,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ピーマン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -455,6 +581,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '菜の花',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -462,6 +590,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'スナップえんどう',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -469,6 +599,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ニラ',
+            'name2' => 'にら',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -476,6 +608,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'なす',
+            'name2' => 'ナス',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -483,6 +617,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'オクラ',
+            'name2' => 'おくら',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -490,6 +626,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'みょうが',
+            'name2' => '茗荷',
+            'name3' => 'ミョウガ',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -497,6 +635,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '黄パプリカ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -504,13 +644,17 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'みつ葉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
          ],
         [
-            'name' => 'ブ��ッコリー',
+            'name' => 'ブロッコリー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -518,6 +662,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'しし唐辛子',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -525,6 +671,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '長芋',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -532,6 +680,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'グリーンアスパラガス',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -539,6 +689,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '筍(水煮)',
+            'name2' => 'たけのこ',
+            'name3' => '',
             'material_category_id' => '3',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -546,6 +698,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ライム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -553,6 +707,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ぶどう',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -560,6 +716,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'りんご',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -567,6 +725,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'レモン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -574,6 +734,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'エルダーフラワーコーディアル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -581,6 +743,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ミントの葉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -588,6 +752,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'セルフィーユ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -595,6 +761,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'バジル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -602,6 +770,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'アボガド',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -609,6 +779,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'キウイフルーツ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -616,6 +788,8 @@ class MaterialsTableSeeder extends Seeder
          ],
             [
             'name' => 'バナナ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -623,6 +797,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'いちご',
+            'name2' => 'ストロベリー',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -630,6 +806,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '栗渋皮煮',
+            'name2' => 'くり',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -637,6 +815,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'グリーンレーズン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -644,6 +824,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ローリエ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -651,6 +833,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'オレンジ',
+            'name2' => 'みかん',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -658,6 +842,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ブラックオリーブ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -665,6 +851,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'タイム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -672,6 +860,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ディル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -679,6 +869,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ラズベリー(冷凍)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -686,6 +878,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ブルーベリー(冷凍)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -693,6 +887,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'アーモンドスライス',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -700,6 +896,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'サフラン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -707,6 +905,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'くるみ',
+            'name2' => '胡桃',
+            'name3' => 'クルミ',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -714,6 +914,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'マンゴー(冷凍)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -721,6 +923,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ライチ(缶)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -728,6 +932,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '生姜',
+            'name2' => 'しょうが',
+            'name3' => '',
             'material_category_id' => '4',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -735,6 +941,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'しめじ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -742,6 +950,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'きざみ海苔',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -749,6 +959,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '焼き海苔',
+            'name2'=> 'のり',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -756,6 +968,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '椎茸',
+            'name2' => 'しいたけ',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -763,6 +977,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ポルチーニ茸',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -770,6 +986,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'わかめ',
+            'name2' => 'ワカメ',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -777,6 +995,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'まいたけ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -784,6 +1004,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'えのき茸',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -791,6 +1013,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'マッシュルーム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '5',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -798,6 +1022,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ツナ缶',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -805,6 +1031,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '辛子明太子',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -812,6 +1040,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'アジ',
+            'name2' => '鯵',
+            'name3' => 'あじ',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -819,6 +1049,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'むき海老',
+            'name2' => 'えび',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -826,6 +1058,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'カニ風味かまぼこ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -833,6 +1067,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'はんぺん',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -840,6 +1076,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'スモークサーモン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -847,6 +1085,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'さきいか',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -854,6 +1094,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'あさり',
+            'name2' => 'アサリ',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -861,13 +1103,17 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'あさり(殻付き)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
          ],
         [
-            'name' => '海老(殻付き)',
+            'name' => 'しじみ',
+            'name2' => 'シジミ',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -875,6 +1121,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'たらこ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -882,6 +1130,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ちりめんじゃこ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -889,6 +1139,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'かまぼこ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -896,6 +1148,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '海老(有頭)',
+            'name2' => 'えび',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -903,6 +1157,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ロブスター',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -910,6 +1166,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鯛',
+            'name2' => 'タイ',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -917,6 +1175,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鰤',
+            'name2' => 'ぶり',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -924,6 +1184,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ほたて貝柱',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -931,6 +1193,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '練りうに',
+            'name2' => 'ウニ',
+            'name3' => '',
             'material_category_id' => '6',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -938,6 +1202,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '牛肩ロース薄切り肉',
+            'name2' => '牛肉',
+            'name3' => 'ビーフ',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -945,6 +1211,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鶏もも肉',
+            'name2' => '鶏肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -952,6 +1220,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豚ロース薄切り',
+            'name2' => '豚肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -959,6 +1229,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豚バラ薄切り肉',
+            'name2' => '豚肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -966,6 +1238,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鶏手羽中',
+            'name2' => '鶏肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -973,6 +1247,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鶏ひき肉',
+            'name2' => '鶏肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -980,6 +1256,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ロースハム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -987,6 +1265,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ベーコン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -994,6 +1274,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '合い挽き肉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1001,6 +1283,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豚肩ロース塊肉',
+            'name2' => '豚肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1008,6 +1292,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豚ひき肉',
+            'name2' => '豚肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1015,6 +1301,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'フォアグラ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1022,6 +1310,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豚肩ロース薄切り肉',
+            'name2' => '豚肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1029,6 +1319,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ウインナー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1036,6 +1328,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '牛ステーキ肉',
+            'name2' => '牛肉',
+            'name3' => 'ビーフ',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1043,6 +1337,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鶏手羽元',
+            'name2' => '鶏肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1050,6 +1346,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '牛もも塊肉',
+            'name2' => '牛肉',
+            'name3' => 'ビーフ',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1057,6 +1355,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'スペアリブ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1064,6 +1364,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豚バラ塊肉',
+            'name2' => '豚肉',
+            'name3' => '',
             'material_category_id' => '7',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1071,6 +1373,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'インスタントコーヒー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1078,6 +1382,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'グレープフルーツジュース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1085,6 +1391,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ラム酒',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1092,6 +1400,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'クコの実',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1099,6 +1409,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '味つきザーサイ',
+            'name2' => '搾菜',
+            'name3' => 'ザーサイ',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1106,6 +1418,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '黒練ごま',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1113,6 +1427,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'トマトジュース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1120,6 +1436,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ピーナッツクリーム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1127,6 +1445,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ピンクペッパー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1134,6 +1454,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'レッドペッパー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1141,6 +1463,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '赤ワイン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1148,6 +1472,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ゆず茶',
+            'name2' => '柚子茶',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1155,6 +1481,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'インスタントドライイースト',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1162,6 +1490,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ターメリック',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1169,13 +1499,17 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'クミンシード',
-            'material_category_id' => '8',
+            'name2' => '',
+            'name3' => '',
+            'mateial_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
          ],
         [
             'name' => 'クミンパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1183,6 +1517,8 @@ class MaterialsTableSeeder extends Seeder
          ],
        [
             'name' => 'ガラムマサラ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1190,6 +1526,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '抹茶',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1197,6 +1535,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ストロベリーリキュール',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1204,6 +1544,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'サイダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1211,6 +1553,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '白ワイン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1218,6 +1562,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'フランボワーズリキュール',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '8',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1225,6 +1571,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'フロストシュガー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1232,6 +1580,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '白玉粉',
+            'name2' => 'しらたま',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1239,6 +1589,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'はちみつ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1246,6 +1598,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'カステラ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1253,6 +1607,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'フルーツグラノーラ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1260,6 +1616,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コーンフレーク',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1267,6 +1625,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'チョコレートシロップ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1274,6 +1634,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '羊羹',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1281,6 +1643,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ココアパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1288,6 +1652,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'パイナップル(缶)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1295,6 +1661,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '黒こしあん',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1302,6 +1670,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'マンゴージャム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1309,6 +1679,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '粉糖',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1316,6 +1688,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'いちご(フリーズドライパウダー)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1323,6 +1697,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'いちごジャム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1330,6 +1706,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ブルーベリージャム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1337,6 +1715,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のマカロンミックス',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1344,6 +1724,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'きび砂糖',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1351,6 +1733,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '砂糖',
+            'name2' => 'さとう',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1358,6 +1742,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ミックスフルーツ(缶)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1365,6 +1751,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'メープルシロップ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1372,6 +1760,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '洋梨(缶)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1379,6 +1769,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のキャラメルシロップ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1386,6 +1778,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ラズベリージャム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1393,6 +1787,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'りんごジャム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '9',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1400,6 +1796,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '切り干し大根',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '10',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1407,6 +1805,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ゆかり',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '10',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1414,6 +1814,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '桜の花の塩漬け',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '10',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1421,6 +1823,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '削りがつお',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '10',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1428,6 +1832,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '素干し海老',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '10',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1435,6 +1841,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '芽ひじき',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '10',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1442,6 +1850,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'チリインオイル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1449,6 +1859,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ナンプラー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1456,6 +1868,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'スイートチリソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1463,6 +1877,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'マヨネーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1470,6 +1886,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のカットトマト',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1477,6 +1895,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'カレー粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1484,6 +1904,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '鶏がらスープの素',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1491,6 +1913,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'マスタード',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1498,6 +1922,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ウスターソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1505,6 +1931,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'バニラオイル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1512,6 +1940,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ごま油',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1519,6 +1949,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'だしじょうゆ',
+            'name2' => 'だし醤油',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1526,6 +1958,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '片栗粉',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1533,6 +1967,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'オリーブオイル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1540,6 +1976,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '和風だしの素',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1547,6 +1985,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ポン酢しょうゆ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1554,6 +1994,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '黒こしょう',
+            'name2' => '黒胡椒',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1561,6 +2003,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コンソメ顆粒',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1568,6 +2012,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '岩塩',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1575,6 +2021,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のデミグラスソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1582,6 +2030,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販ホワイトソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1589,6 +2039,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販トマトソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1596,6 +2048,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'アーモンドパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1603,6 +2057,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'アーモンドエッセンス',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1610,6 +2066,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'カスタードクリームパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1617,6 +2075,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ココナッツミルクパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1624,6 +2084,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ベーキングパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1631,6 +2093,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'トマトケチャップ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1638,6 +2102,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'トマトペースト',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1645,6 +2111,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コチュジャン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1652,6 +2120,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'チリパウダー',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1659,6 +2129,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '黒酢',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1666,6 +2138,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '白だし',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1673,6 +2147,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '白こしょう',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1680,6 +2156,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '赤唐辛子(輪切り)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1687,6 +2165,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '粒マスタード',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1694,6 +2174,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ナツメグ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1701,6 +2183,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '豆板醤',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1708,6 +2192,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'トウチ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1715,6 +2201,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '青花椒(アオホワジャオ)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1722,6 +2210,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'テンメジャン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1729,6 +2219,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ラー油',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1736,6 +2228,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ターメリック',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1743,6 +2237,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'オイスターソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1750,6 +2246,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '酒',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1757,6 +2255,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '塩こうじ',
+            'name2' => '塩麹',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1764,6 +2264,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'しょうゆこうじ',
+            'name2' => '醤油麹',
+            'name3' => '醤油こうじ',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1771,6 +2273,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ゆずこしょう',
+            'name2' => '柚子こしょう',
+            'name3' => 'ゆず胡椒',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1778,6 +2282,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のタルタルソース',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1785,6 +2291,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ハーブ&スパイスミックス調味料',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1792,6 +2300,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'チョウテンガンシンジャオ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1799,6 +2309,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'にんにく',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1806,6 +2318,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'イタリアンパセリ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1813,6 +2327,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'パセリ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1820,6 +2336,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'バジル',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1827,6 +2345,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '生クリーム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1834,6 +2354,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'スライスチーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1841,6 +2363,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'バター',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1848,6 +2372,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'バター(食塩不使用)',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1855,6 +2381,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '牛乳',
+            'name2' => 'ミルク',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1862,6 +2390,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'サワークリーム',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1869,6 +2399,8 @@ class MaterialsTableSeeder extends Seeder
          ],
                 [
             'name' => 'ピザ用チーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1876,6 +2408,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '粉チーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1883,6 +2417,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'ラクレットチーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1890,6 +2426,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'クリームチーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1897,6 +2435,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'カマンベールチーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1904,6 +2444,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'プレーンヨーグルト',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1911,6 +2453,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'プロセスチーズ',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1918,6 +2462,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'コンデンスミルク',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '12',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1925,6 +2471,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '温泉卵',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '13',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1932,6 +2480,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '卵',
+            'name2' => 'エッグ',
+            'name3' => 'たまご',
             'material_category_id' => '13',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1939,13 +2489,17 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '粉ゼラチン',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '13',
             'memo' => '', 
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
-         ],*/
+         ],
         [
             'name' => '酢',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1953,6 +2507,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '塩',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1960,6 +2516,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '醤油',
+            'name2' => 'しょうゆ',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1967,6 +2525,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'エキストラバージンオリーブオイル',
+            'name2' => 'オリーブオイル',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1974,6 +2534,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '削りがつお',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1981,6 +2543,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => 'たくわん',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1988,6 +2552,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のドレッシング',
+            'name2' => '',
+            'name3' => '',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -1995,6 +2561,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のきざみしょうが',
+            'name2' => 'しょうが',
+            'name3' => '生姜',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -2002,6 +2570,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のきざみにんにく',
+            'name2' => 'にんにく',
+            'name3' => 'ニンニク',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -2009,6 +2579,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のおろしにんにく',
+            'name2' => 'にんにく',
+            'name3' => 'ニンニク',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),
@@ -2016,6 +2588,8 @@ class MaterialsTableSeeder extends Seeder
          ],
         [
             'name' => '市販のおろししょうが',
+            'name2' => '生姜',
+            'name3' => 'しょうが',
             'material_category_id' => '11',
             'memo' => '', 
             'created_at' => new DateTime(),

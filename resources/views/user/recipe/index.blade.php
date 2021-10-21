@@ -1,10 +1,10 @@
 @extends('layouts.common')
-@section('title', '登録済み献立の一覧')
+@section('title', '登録済みレシピの一覧')
 
 @section('content')
     <div class="container">
         <div class="row">
-            <h2>献立一覧</h2>
+            <h2>レシピ一覧</h2>
         </div>
         <div class="row">
             <div class="col-md-4">
@@ -13,7 +13,7 @@
             <div class="col-md-8">
                 <form action="{{ action('User\MenuController@index') }}" method="get">
                     <div class="form-group row">
-                        <label class="col-md-2">献立名</label>
+                        <label class="col-md-2">レシピ名</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control" name="cond_name" value="{{ $cond_name }}">
                         </div>
@@ -39,22 +39,22 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach($posts as $menu)
+                            @foreach($posts as $recipe)
                                 <tr>
-                                    <th>{{ $menu->id }}</th>
+                                    <th>{{ $recipe->id }}</th>
                                     <td>
-                                        @if ($menu->image_path)
-                                        <img width="100px" src="{{ secure_asset('storage/image/menu/' . $menu->image_path) }}">
+                                        @if ($recipe->image_path)
+                                        <img width="100px" src="{{ secure_asset('storage/image/' . $menu->image_path) }}">
                                         @endif
                                     </td>
-                                    <td>{{ \Str::limit($menu->name, 100) }}</td>
-                                    <td>{{ \Str::limit($menu->body, 250) }}</td>
+                                    <td>{{ \Str::limit($recipe->name, 100) }}</td>
+                                    <td>{{ \Str::limit($recipe->body, 250) }}</td>
                                     <td>
                                         <div>
-                                            <a href="{{ action('User\MenuController@edit', ['id' => $menu->id]) }}">編集</a>
+                                            <a href="{{ action('User\RecipeController@edit', ['id' => $recipe->id]) }}">編集</a>
                                         </div>
                                         <div>
-                                            <a href="{{ action('User\MenuController@delete', ['id' => $menu->id]) }}">削除</a>
+                                            <a href="{{ action('User\RecipeController@delete', ['id' => $recipe->id]) }}">削除</a>
                                         </div
                                     </td>
                                 </tr>
